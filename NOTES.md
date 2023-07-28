@@ -55,11 +55,12 @@ de 2 segundos entre cada rodada) até alguém ganhar ou empatar.
 TODO:
 
 # Podmodoro 1 🍅:
+- Should return the player 1 name as “X”
 
 
 
 # Domain:
-- There are 2 players - 
+- There are 2 players 
 - Player 1 is X and player 2 is O
 - There is a board
 - The board has three columns and three rows
