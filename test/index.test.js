@@ -56,6 +56,15 @@ describe('Game', () =>{
         expect(board).toStrictEqual(mockedBoard);
     })
     test('Should return "PLAYER X WON!" if there is "X" on the first, second and third cells', () => {
+        // const player1 = new Player("X");
+        // const player2 = new Player("");
+        // let board = boardCreation();
+        // const mockedBoard = [
+        //     ['X','X','X'],
+        //     ['','',''],
+        //     ['','',''],
+        // ];
+        // board = boardPosition(0, player1, player2);
         expect(declareWinner()).toStrictEqual('PLAYER X WON!');
     })
 })

@@ -73,6 +73,7 @@ TODO:
 # Podmodoro 4 🍅:
 - Refactor prod✅
 - Should return "PLAYER X WON!" if there is "X" on the first, second and third cells✅
+- Refactor last test and prod 🚧
 # Domain:
 - There are 2 players 
 - Player 1 is X and player 2 is O
