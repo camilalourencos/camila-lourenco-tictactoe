@@ -12,8 +12,8 @@ describe('Players', () => {
 });
 
 describe('Board creation', () =>{
-    test('Should return true if board is created', () => {
+    test('Should return columns length as 3', () => {
         const board = boardCreation();
-        expect(board).toBe(true);
+        expect(board.length).toBe(3);
     })
 })

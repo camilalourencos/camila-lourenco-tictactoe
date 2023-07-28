@@ -5,7 +5,13 @@ class Player {
 }
 
 function boardCreation() {
-    return true;
+    let board = [
+        ['','',''],
+        ['','',''],
+        ['','',''],
+    ]
+
+    return board;
 }
 
 module.exports = {
