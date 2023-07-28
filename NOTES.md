@@ -63,6 +63,7 @@ TODO:
 
 # Podmodoro 2 🍅:
 - Should return first row length as 3✅ 
+- Should return second row length as 3
 
 # Domain:
 - There are 2 players 
