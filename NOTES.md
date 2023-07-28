@@ -62,6 +62,7 @@ TODO:
 - Refactor first test of Board creation - no longer needed✅ 
 
 # Podmodoro 2 🍅:
+- Should return first row length as 3✅ 
 
 # Domain:
 - There are 2 players 

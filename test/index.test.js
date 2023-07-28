@@ -16,4 +16,8 @@ describe('Board creation', () =>{
         const board = boardCreation();
         expect(board.length).toBe(3);
     })
+    test('Should return first row length as 3', () => {
+        const board = boardCreation();
+        expect(board[0].length).toBe(3);
+    })
 })
