@@ -71,7 +71,8 @@ TODO:
 - Should return "X" on the first cell and "O" on the second cell✅
 
 # Podmodoro 4 🍅:
-- Refactor prod
+- Refactor prod✅
+- Should return "PLAYER X WON!" if there is "X" on the first, second and third cells✅
 # Domain:
 - There are 2 players 
 - Player 1 is X and player 2 is O

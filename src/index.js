@@ -21,13 +21,17 @@ function boardPosition(position, player1, player2) {
     } else {
         board[position] = [player1.name, player2.name, ""];
     }
-    
     return board;
-
 }
+
+function declareWinner() {
+    return "PLAYER X WON!"
+}
+
 
 module.exports = {
     Player,
     boardCreation,
     boardPosition,
+    declareWinner,
 }

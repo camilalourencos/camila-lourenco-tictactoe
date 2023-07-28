@@ -1,4 +1,4 @@
-const { Player, boardCreation, boardPosition } = require("../src/index");
+const { Player, boardCreation, boardPosition, declareWinner } = require("../src/index");
 
 describe('Players', () => {
     test('Should return the player 1 name as “X”', () => {
@@ -54,5 +54,8 @@ describe('Game', () =>{
         ];
         board = boardPosition(0, player1, player2);
         expect(board).toStrictEqual(mockedBoard);
+    })
+    test('Should return "PLAYER X WON!" if there is "X" on the first, second and third cells', () => {
+        expect(declareWinner()).toStrictEqual('PLAYER X WON!');
     })
 })
