@@ -58,5 +58,11 @@ TODO:
 
 
 
-
 # Domain:
+- There are 2 players - 
+- Player 1 is X and player 2 is O
+- There is a board
+- The board has three columns and three rows
+- The players take turns to play
+- The game start with player X
+- The player success by placing three of their name in horizontal, vertical or diagonal
