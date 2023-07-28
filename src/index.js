@@ -16,7 +16,7 @@ function boardCreation() {
 
 function boardPosition(position, player) {
     let board = boardCreation();
-    board[position] = player.name;
+    board[position] = [player.name, "", ""];
 
     console.log(board);
     

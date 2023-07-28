@@ -28,8 +28,11 @@ describe('Board creation', () =>{
         const board = boardCreation();
         expect(board[2].length).toBe(3);
     })
+})
+
+describe('Game', () =>{
     test('Should return "X" on the first cell', () => {
-        const player = new Player(["X", "", ""]);
+        const player = new Player("X");
         let board = boardCreation();
         const mockedBoard = [
             ['X','',''],
