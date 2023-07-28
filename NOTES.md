@@ -64,7 +64,8 @@ TODO:
 # Podmodoro 2 🍅:
 - Should return first row length as 3✅ 
 - Should return second row length as 3✅
-- Should return third row length as 3
+- Should return third row length as 3✅
+- Should return "X" on the first cell
 
 # Domain:
 - There are 2 players 

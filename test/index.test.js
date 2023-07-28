@@ -1,4 +1,4 @@
-const { Player, boardCreation } = require("../src/index");
+const { Player, boardCreation, boardPosition } = require("../src/index");
 
 describe('Players', () => {
     test('Should return the player 1 name as “X”', () => {
@@ -27,5 +27,16 @@ describe('Board creation', () =>{
     test('Should return third row length as 3', () => {
         const board = boardCreation();
         expect(board[2].length).toBe(3);
+    })
+    test('Should return "X" on the first cell', () => {
+        const player = new Player(["X", "", ""]);
+        let board = boardCreation();
+        const mockedBoard = [
+            ['X','',''],
+            ['','',''],
+            ['','',''],
+        ];
+        board = boardPosition(0, player);
+        expect(board).toStrictEqual(mockedBoard);
     })
 })
