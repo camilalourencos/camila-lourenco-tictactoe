@@ -5,4 +5,8 @@ describe('Players', () => {
         const player1 = new Player("X");
         expect(player1.name).toBe("X");
     })
+    test('Should return the player 2 name as "O"', () => {
+        const player1 = new Player("O");
+        expect(player1.name).toBe("O");
+    })
 });

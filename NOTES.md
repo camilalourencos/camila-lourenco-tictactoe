@@ -55,8 +55,8 @@ de 2 segundos entre cada rodada) até alguém ganhar ou empatar.
 TODO:
 
 # Podmodoro 1 🍅:
-- Should return the player 1 name as “X”
-
+- Should return the player 1 name as “X”✅ 
+- Should return the player 2 name as  "O"
 
 
 # Domain:
