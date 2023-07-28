@@ -68,6 +68,7 @@ TODO:
 - Should return "X" on the first cell✅
 # Podmodoro 3 🍅:
 - Refactor test and prod✅
+- Should return "X" on the first cell and "O" on the second cell
 
 # Domain:
 - There are 2 players 

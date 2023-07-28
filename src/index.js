@@ -14,11 +14,13 @@ function boardCreation() {
     return board;
 }
 
-function boardPosition(position, player) {
+function boardPosition(position, player1, player2) {
     let board = boardCreation();
-    board[position] = [player.name, "", ""];
-
-    console.log(board);
+    if (player2 === ""){
+        board[position] = [player1.name, "", ""];
+    } else {
+        board[position] = [player1.name, player2.name, ""];
+    }
     
     return board;
 

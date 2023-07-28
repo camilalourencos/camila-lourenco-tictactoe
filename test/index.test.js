@@ -32,14 +32,27 @@ describe('Board creation', () =>{
 
 describe('Game', () =>{
     test('Should return "X" on the first cell', () => {
-        const player = new Player("X");
+        const player1 = new Player("X");
+        const player2 = new Player("");
         let board = boardCreation();
         const mockedBoard = [
             ['X','',''],
             ['','',''],
             ['','',''],
         ];
-        board = boardPosition(0, player);
+        board = boardPosition(0, player1, player2);
+        expect(board).toStrictEqual(mockedBoard);
+    })
+    test('Should return "X" on the first cell and "O" on the second cell', () => {
+        const player1 = new Player("X");
+        const player2 = new Player("O");
+        let board = boardCreation();
+        const mockedBoard = [
+            ['X','O',''],
+            ['','',''],
+            ['','',''],
+        ];
+        board = boardPosition(0, player1, player2);
         expect(board).toStrictEqual(mockedBoard);
     })
 })
