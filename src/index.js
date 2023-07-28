@@ -4,6 +4,11 @@ class Player {
     }
 }
 
+function boardCreation() {
+    return true;
+}
+
 module.exports = {
     Player,
+    boardCreation,
 }

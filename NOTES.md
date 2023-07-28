@@ -56,7 +56,8 @@ TODO:
 
 # Podmodoro 1 🍅:
 - Should return the player 1 name as “X”✅ 
-- Should return the player 2 name as  "O"
+- Should return the player 2 name as  "O"✅ 
+- Should return true if board is created
 
 
 # Domain:
